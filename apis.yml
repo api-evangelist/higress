@@ -1,0 +1,45 @@
+aid: higress
+name: Higress
+description: >-
+  Higress is a cloud-native API gateway built on Istio and Envoy, providing
+  enterprise-grade API gateway capabilities including traffic management,
+  security, observability, and AI plugin support. It is an open-source
+  project under the CNCF ecosystem.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - API Gateway
+  - Cloud Native
+  - Kubernetes
+  - Istio
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/higress/refs/heads/main/apis.yml
+created: '2026-03-16'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: higress:higress
+    name: Higress
+    description: >-
+      Higress is a next-generation cloud-native API gateway that provides
+      intelligent routing, traffic management, authentication, and observability
+      capabilities for microservices architectures.
+    humanURL: https://higress.io/en-us/
+    tags:
+      - API Gateway
+      - Cloud Native
+    properties:
+      - type: Documentation
+        url: https://higress.io/en-us/docs/
+      - type: Getting Started
+        url: https://higress.io/en-us/docs/user/quickstart
+common:
+  - type: Website
+    url: https://higress.io/en-us/
+  - type: Documentation
+    url: https://higress.io/en-us/docs/
+  - type: GitHub Organization
+    url: https://github.com/alibaba/higress
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
