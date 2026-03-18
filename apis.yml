@@ -15,7 +15,7 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/higress/refs/heads/main/apis.yml
 created: '2026-03-16'
-modified: '2026-03-16'
+modified: '2026-03-18'
 specificationVersion: '0.19'
 apis:
   - aid: higress:higress
@@ -33,13 +33,92 @@ apis:
         url: https://higress.io/en-us/docs/
       - type: Getting Started
         url: https://higress.io/en-us/docs/user/quickstart
+      - type: Reference
+        url: https://higress.io/en-us/docs/ops/config/
+      - type: Change Log
+        url: https://github.com/alibaba/higress/releases
+      - type: GitHubRepository
+        url: https://github.com/alibaba/higress
+  - aid: higress:higress-console-api
+    name: Higress Console API
+    description: >-
+      The Higress Console API provides a RESTful management interface for
+      configuring and administering a running Higress gateway instance. It
+      supports management of ingress routes, service sources, TLS certificates,
+      plugins, and gateway configuration through the built-in web console
+      backend.
+    humanURL: https://higress.io/en-us/docs/ops/api
+    tags:
+      - Admin
+      - Management
+      - REST
+      - Configuration
+    properties:
+      - type: Documentation
+        url: https://higress.io/en-us/docs/ops/api
+      - type: GitHubRepository
+        url: https://github.com/alibaba/higress-console
+  - aid: higress:higress-ai-gateway
+    name: Higress AI Gateway
+    description: >-
+      Higress AI Gateway extends the core Higress gateway with AI-specific
+      capabilities including LLM proxy routing, multi-provider support for
+      OpenAI-compatible APIs, prompt templating, token-based rate limiting,
+      semantic caching, and AI observability. It enables teams to manage and
+      govern traffic to large language model services.
+    humanURL: https://higress.io/en-us/docs/plugins/ai/
+    tags:
+      - AI
+      - LLM
+      - API Gateway
+      - Cloud Native
+    properties:
+      - type: Documentation
+        url: https://higress.io/en-us/docs/plugins/ai/
+      - type: Getting Started
+        url: https://higress.io/en-us/docs/user/ai-proxy/
+      - type: GitHubRepository
+        url: https://github.com/alibaba/higress
+  - aid: higress:higress-wasm-plugin-api
+    name: Higress Wasm Plugin API
+    description: >-
+      The Higress Wasm Plugin API provides a WebAssembly-based extension
+      interface for developing and deploying custom plugins on the Higress
+      gateway. Plugins can be written in Go, Rust, C++, or any language
+      that compiles to WebAssembly, and can intercept and transform HTTP
+      requests and responses at the gateway level.
+    humanURL: https://higress.io/en-us/docs/plugins/custom/
+    tags:
+      - WebAssembly
+      - Plugins
+      - Extensions
+      - Cloud Native
+    properties:
+      - type: Documentation
+        url: https://higress.io/en-us/docs/plugins/custom/
+      - type: Reference
+        url: https://higress.io/en-us/docs/plugins/custom/go-plugin/
+      - type: GitHubRepository
+        url: https://github.com/alibaba/higress
 common:
   - type: Website
     url: https://higress.io/en-us/
   - type: Documentation
     url: https://higress.io/en-us/docs/
+  - type: Getting Started
+    url: https://higress.io/en-us/docs/user/quickstart
+  - type: Blog
+    url: https://higress.io/en-us/blog/
+  - type: Change Log
+    url: https://github.com/alibaba/higress/releases
   - type: GitHub Organization
+    url: https://github.com/alibaba
+  - type: GitHubRepository
     url: https://github.com/alibaba/higress
+  - type: Issue Tracker
+    url: https://github.com/alibaba/higress/issues
+  - type: Community
+    url: https://discord.gg/higress
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
