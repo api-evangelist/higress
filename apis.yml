@@ -10,8 +10,8 @@ image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - API Gateway
   - Cloud Native
-  - Kubernetes
   - Istio
+  - Kubernetes
 url: >-
   https://raw.githubusercontent.com/api-evangelist/higress/refs/heads/main/apis.yml
 created: '2026-03-16'
@@ -50,9 +50,9 @@ apis:
     humanURL: https://higress.io/en-us/docs/ops/api
     tags:
       - Admin
+      - Configuration
       - Management
       - REST
-      - Configuration
     properties:
       - type: Documentation
         url: https://higress.io/en-us/docs/ops/api
@@ -69,9 +69,9 @@ apis:
     humanURL: https://higress.io/en-us/docs/plugins/ai/
     tags:
       - AI
-      - LLM
       - API Gateway
       - Cloud Native
+      - LLM
     properties:
       - type: Documentation
         url: https://higress.io/en-us/docs/plugins/ai/
@@ -89,10 +89,10 @@ apis:
       requests and responses at the gateway level.
     humanURL: https://higress.io/en-us/docs/plugins/custom/
     tags:
-      - WebAssembly
-      - Plugins
-      - Extensions
       - Cloud Native
+      - Extensions
+      - Plugins
+      - WebAssembly
     properties:
       - type: Documentation
         url: https://higress.io/en-us/docs/plugins/custom/
