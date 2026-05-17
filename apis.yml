@@ -31,11 +31,11 @@ apis:
     properties:
       - type: Documentation
         url: https://higress.io/en-us/docs/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://higress.io/en-us/docs/user/quickstart
       - type: Reference
         url: https://higress.io/en-us/docs/ops/config/
-      - type: Change Log
+      - type: ChangeLog
         url: https://github.com/alibaba/higress/releases
       - type: GitHubRepository
         url: https://github.com/alibaba/higress
@@ -75,7 +75,7 @@ apis:
     properties:
       - type: Documentation
         url: https://higress.io/en-us/docs/plugins/ai/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://higress.io/en-us/docs/user/ai-proxy/
       - type: GitHubRepository
         url: https://github.com/alibaba/higress
@@ -105,13 +105,13 @@ common:
     url: https://higress.io/en-us/
   - type: Documentation
     url: https://higress.io/en-us/docs/
-  - type: Getting Started
+  - type: GettingStarted
     url: https://higress.io/en-us/docs/user/quickstart
   - type: Blog
     url: https://higress.io/en-us/blog/
-  - type: Change Log
+  - type: ChangeLog
     url: https://github.com/alibaba/higress/releases
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/alibaba
   - type: GitHubRepository
     url: https://github.com/alibaba/higress
