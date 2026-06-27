@@ -119,7 +119,7 @@ common:
     url: https://github.com/alibaba/higress/issues
   - type: Community
     url: https://discord.gg/higress
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://higress.io/llms.txt
 maintainers:
   - FN: Kin Lane
