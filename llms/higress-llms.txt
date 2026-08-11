@@ -1,0 +1,140 @@
+# Higress
+
+> Higress 是一款云原生 API 网关，基于 Istio 和 Envoy 构建，支持 AI 网关、API 网关和微服务网关三合一。提供流量管理、服务治理、安全防护等企业级特性。
+
+Higress 的核心特性：
+- AI 网关：支持多模型代理、语义缓存、Token 管理等 AI 场景
+- API 网关：提供丰富的流量治理能力，支持灰度发布、限流熔断等
+- 微服务网关：无缝对接 Nacos、Dubbo、Spring Cloud 等微服务框架
+- 插件扩展：支持 Wasm 插件开发，提供认证、转换、安全等丰富插件
+
+## 概述
+
+- [FAQ](https://higress.ai/docs/latest/overview/faq/)
+- [llms.txt](https://higress.ai/docs/latest/overview/llms/)
+- [版本计划](https://higress.ai/docs/latest/overview/roadmap/)
+- [术语表](https://higress.ai/docs/latest/overview/terminology/)
+- [Higress 是什么?](https://higress.ai/docs/latest/overview/what-is-higress/)
+
+## 用户指南
+
+- [快速开始](https://higress.ai/docs/latest/user/quickstart/)
+- [全局配置说明](https://higress.ai/docs/latest/user/configmap/)
+- [Nginx Ingress Annotation 兼容说明](https://higress.ai/docs/latest/user/annotation/)
+- [通过 Ingress Annotation 实现高阶流量治理](https://higress.ai/docs/latest/user/annotation-use-case/)
+- [Higress 参数配置](https://higress.ai/docs/latest/user/configurations/)
+- [Mcp Bridge 配置说明](https://higress.ai/docs/latest/user/mcp-bridge/)
+- [HTTP 转 Dubbo 配置说明](https://higress.ai/docs/latest/user/dubbo-http2rpc/)
+- [Wasm 插件镜像规范](https://higress.ai/docs/latest/user/wasm-image-spec/)
+- [AI 缓存](https://higress.ai/docs/latest/user/plugins/ai/api-provider/ai-cache/)
+- [AI 提示词](https://higress.ai/docs/latest/user/plugins/ai/api-provider/ai-prompt-decorator/)
+- [AI 代理](https://higress.ai/docs/latest/user/plugins/ai/api-provider/ai-proxy/)
+- [AI 内容安全](https://higress.ai/docs/latest/user/plugins/ai/api-provider/ai-security-guard/)
+- [AI 数据脱敏](https://higress.ai/docs/latest/user/plugins/ai/api-consumer/ai-data-masking/)
+- [AI 配额管理](https://higress.ai/docs/latest/user/plugins/ai/api-consumer/ai-quota/)
+- [AI Token限流](https://higress.ai/docs/latest/user/plugins/ai/api-consumer/ai-token-ratelimit/)
+- [AI Agent](https://higress.ai/docs/latest/user/plugins/ai/api-dev/ai-agent/)
+- [AI JSON 格式化](https://higress.ai/docs/latest/user/plugins/ai/api-dev/ai-json-resp/)
+- [AI 提示词模版](https://higress.ai/docs/latest/user/plugins/ai/api-dev/ai-prompt-template/)
+- [AI 搜索增强](https://higress.ai/docs/latest/user/plugins/ai/api-dev/ai-search/)
+- [AI可观测](https://higress.ai/docs/latest/user/plugins/ai/api-o11y/ai-statistics/)
+- [IP 地理位置](https://higress.ai/docs/latest/user/plugins/ai/api-o11y/geo-ip/)
+- [AI 历史对话](https://higress.ai/docs/latest/user/plugins/ai/others/ai-history/)
+- [AI 意图识别](https://higress.ai/docs/latest/user/plugins/ai/others/ai-intent/)
+- [AI RAG](https://higress.ai/docs/latest/user/plugins/ai/others/ai-rag/)
+- [AI 请求响应转换](https://higress.ai/docs/latest/user/plugins/ai/others/ai-transformer/)
+- [Basic 认证](https://higress.ai/docs/latest/user/plugins/authentication/basic-auth/)
+- [外部认证](https://higress.ai/docs/latest/user/plugins/authentication/ext-auth/)
+- [APISIX HMAC 认证](https://higress.ai/docs/latest/user/plugins/authentication/hmac-auth-apisix/)
+- [HMAC 认证](https://higress.ai/docs/latest/user/plugins/authentication/hmac-auth/)
+- [JWT 认证](https://higress.ai/docs/latest/user/plugins/authentication/jwt-auth/)
+- [Key 认证](https://higress.ai/docs/latest/user/plugins/authentication/key-auth/)
+- [OAuth2 认证](https://higress.ai/docs/latest/user/plugins/authentication/oauth/)
+- [OIDC 认证](https://higress.ai/docs/latest/user/plugins/authentication/oidc/)
+- [OPA](https://higress.ai/docs/latest/user/plugins/authentication/opa/)
+- [浏览器缓存控制](https://higress.ai/docs/latest/user/plugins/transformation/cache-control/)
+- [自定义应答](https://higress.ai/docs/latest/user/plugins/transformation/custom-response/)
+- [DeGraphQL](https://higress.ai/docs/latest/user/plugins/transformation/de-graphql/)
+- [前端灰度](https://higress.ai/docs/latest/user/plugins/transformation/frontend-gray/)
+- [请求响应转换](https://higress.ai/docs/latest/user/plugins/transformation/transformer/)
+- [基于 Key 集群限流](https://higress.ai/docs/latest/user/plugins/traffic/cluster-key-rate-limit/)
+- [基于 Key 的本地限流](https://higress.ai/docs/latest/user/plugins/traffic/key-rate-limit/)
+- [请求协议校验](https://higress.ai/docs/latest/user/plugins/traffic/request-validation/)
+- [流量染色](https://higress.ai/docs/latest/user/plugins/traffic/traffic-tag/)
+- [Bot 拦截](https://higress.ai/docs/latest/user/plugins/security/bot-detect/)
+- [跨域资源共享](https://higress.ai/docs/latest/user/plugins/security/cors/)
+- [IP 访问限制](https://higress.ai/docs/latest/user/plugins/security/ip-restriction/)
+- [防重放攻击](https://higress.ai/docs/latest/user/plugins/security/replay-protection/)
+- [请求屏蔽](https://higress.ai/docs/latest/user/plugins/security/request-block/)
+- [WAF](https://higress.ai/docs/latest/user/plugins/security/waf/)
+- [Wasm 插件使用简介](https://higress.ai/docs/latest/user/plugins/intro/)
+- [自定义插件](https://higress.ai/docs/latest/user/plugins/custom/)
+- [Wasm 插件介绍和开发自定义插件](https://higress.ai/docs/latest/user/plugins/wasm-dev/wasm14/)
+- [Wasm 插件原理](https://higress.ai/docs/latest/user/plugins/wasm-dev/wasm15/)
+- [Higress 插件 Go SDK 与处理流程](https://higress.ai/docs/latest/user/plugins/wasm-dev/wasm16/)
+- [HTTP 调用](https://higress.ai/docs/latest/user/plugins/wasm-dev/wasm17/)
+- [Redis 调用](https://higress.ai/docs/latest/user/plugins/wasm-dev/wasm18/)
+- [Wasm 生效原理](https://higress.ai/docs/latest/user/plugins/wasm-dev/wasm19/)
+- [使用 GO 语言开发 WASM 插件](https://higress.ai/docs/latest/user/wasm-go/)
+- [通过 OpenKruise Rollout 实现灰度发布](https://higress.ai/docs/latest/user/kruise-rollout/)
+- [配置 Ingress 转发给注册在 Nacos 的服务](https://higress.ai/docs/latest/user/nacos-route/)
+- [实现 SpringCloud 服务发现和路由](https://higress.ai/docs/latest/user/spring-cloud/)
+- [Higress 对接 Dubbo 服务](https://higress.ai/docs/latest/user/dubbo/)
+- [基于 Prometheus 实现入口流量观测](https://higress.ai/docs/latest/user/prometheus/)
+- [开启 WAF 防护的最佳实践](https://higress.ai/docs/latest/user/waf/)
+
+## 运维指南
+
+- [hgctl 工具使用说明](https://higress.ai/docs/latest/ops/hgctl/)
+- [使用 Helm 进行云原生部署](https://higress.ai/docs/latest/ops/deploy-by-helm/)
+- [基于 Docker Compose 进行独立部署](https://higress.ai/docs/latest/ops/deploy-by-docker-compose/)
+- [基于 Docker 容器进行独立部署](https://higress.ai/docs/latest/ops/deploy-by-docker/)
+- [通过阿里云计算巢快速部署](https://higress.ai/docs/latest/ops/deploy-by-aliyun-computenest/)
+- [查看日志](https://higress.ai/docs/latest/ops/how-tos/view-logs/)
+- [查看运行时配置](https://higress.ai/docs/latest/ops/how-tos/view-configs/)
+- [配置路由指向 gRPC 服务](https://higress.ai/docs/latest/ops/how-tos/grpc-upstream/)
+- [配置路由指向 HTTPS 服务](https://higress.ai/docs/latest/ops/how-tos/https-upstream/)
+- [配置 TCP 四层路由](https://higress.ai/docs/latest/ops/how-tos/tcp-route/)
+- [修改 Gateway 监听端口](https://higress.ai/docs/latest/ops/how-tos/gateway-ports/)
+- [修改内置插件镜像地址](https://higress.ai/docs/latest/ops/how-tos/builtin-plugin-url/)
+- [使用 HTTP/HTTPS 协议加载 Wasm 插件](https://higress.ai/docs/latest/ops/how-tos/load-wasm-with-http/)
+- [启用 Swagger 文档](https://higress.ai/docs/latest/ops/how-tos/enable-swagger/)
+- [版本升级](https://higress.ai/docs/latest/ops/upgrade/)
+- [日志说明](https://higress.ai/docs/latest/ops/log/)
+
+## 开发者指南
+
+- [组件编译说明](https://higress.ai/docs/latest/dev/architecture/)
+- [源码阅读指引](https://higress.ai/docs/latest/dev/code/)
+- [教程：如何在本地开发和调试 Higress 控制台](https://higress.ai/docs/latest/dev/console-dev/)
+- [Higress自定义CRD开发指引](https://higress.ai/docs/latest/dev/customresourcedefinition/)
+- [教程：如何在本地进行higress调试和端到端测试](https://higress.ai/docs/latest/dev/e2e-debug/)
+
+## AI 网关
+
+- [一键部署 Higress AI 网关](https://higress.ai/docs/ai/quick-start/)
+- [MCP 插件配置](https://higress.ai/docs/ai/mcp-server/)
+- [MCP 快速开始](https://higress.ai/docs/ai/mcp-quick-start/)
+- [MCP 快速开始 (Docker)](https://higress.ai/docs/ai/mcp-quick-start_docker/)
+- [MCP Server 快速开始（对接现存 SSE Server）](https://higress.ai/docs/ai/mcp-with-sse/)
+
+## 场景指南
+
+- [多模型代理](https://higress.ai/docs/ai/scene-guide/multi-proxy/)
+- [语义缓存](https://higress.ai/docs/ai/scene-guide/semantic-cache/)
+- [应用安全](https://higress.ai/docs/ai/scene-guide/application-safety/)
+- [Token 管理](https://higress.ai/docs/ai/scene-guide/token-management/)
+
+## HiMarket
+
+- [HiMarket 介绍](https://higress.ai/docs/himarket/himarket-introduction/)
+- [HiMarket 部署](https://higress.ai/docs/himarket/himarket-deployment/)
+- [HiMarket 使用](https://higress.ai/docs/himarket/himarket-usage/)
+- [MCP Server 管理](https://higress.ai/docs/himarket/himarket-mcp-server/)
+- [Skills 市场](https://higress.ai/docs/himarket/himarket-skills/)
+- [Worker 管理](https://higress.ai/docs/himarket/himarket-workers/)
+- [OIDC/SSO 集成](https://higress.ai/docs/himarket/himarket-oidc-integration/)
+- [可观测能力介绍](https://higress.ai/docs/himarket/himarket-observability-overview/)
+- [使用阿里云SLS实现可观测（推荐）](https://higress.ai/docs/himarket/himarket-sls-observability/)
+- [使用数据库实现可观测](https://higress.ai/docs/himarket/himarket-db-observability/)
+- [HiMarket AgentScope Agent](https://higress.ai/docs/himarket/himarket-agentscope-agent/)
