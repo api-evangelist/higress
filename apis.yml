@@ -6,6 +6,18 @@ description: >-
   security, observability, and AI plugin support. It is an open-source
   project under the CNCF ecosystem.
 type: Index
+deliveryModel:
+  model: self-hosted
+  license: Apache-2.0
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-11'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
@@ -113,6 +125,13 @@ apis:
       - type: GitHubRepository
         url: https://github.com/alibaba/higress
 common:
+  - type: SecurityPolicy
+    url: https://github.com/higress-group/higress/blob/main/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/higress-group/higress/blob/main/CODE_OF_CONDUCT.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/alibaba/higress/blob/main/LICENSE
   - type: DomainSecurity
     url: security/higress-domain-security.yml
   - type: Website
