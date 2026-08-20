@@ -33,6 +33,11 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/higress.png
 tags:
   - API Gateway
+  - Cloud-Native
+  - Istio
+  - Kubernetes
+tags_raw:
+  - API Gateway
   - Cloud Native
   - Istio
   - Kubernetes
@@ -50,6 +55,9 @@ apis:
       capabilities for microservices architectures.
     humanURL: https://higress.io/en-us/
     tags:
+      - API Gateway
+      - Cloud-Native
+    tags_raw:
       - API Gateway
       - Cloud Native
     properties:
@@ -92,6 +100,11 @@ apis:
       govern traffic to large language model services.
     humanURL: https://higress.io/en-us/docs/plugins/ai/
     tags:
+      - Artificial Intelligence
+      - API Gateway
+      - Cloud-Native
+      - LLM
+    tags_raw:
       - AI
       - API Gateway
       - Cloud Native
@@ -113,6 +126,11 @@ apis:
       requests and responses at the gateway level.
     humanURL: https://higress.io/en-us/docs/plugins/custom/
     tags:
+      - Cloud-Native
+      - Extensions
+      - Plugins
+      - WebAssembly
+    tags_raw:
       - Cloud Native
       - Extensions
       - Plugins
