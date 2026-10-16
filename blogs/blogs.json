@@ -2,11 +2,11 @@
   "repo": "higress",
   "feeds": [
     {
-      "source": "https://higress.io/en-us/docs/user/quickstart",
+      "source": "https://higress.io/en-us/blog/",
       "error": "HTTPError"
     }
   ],
-  "fetched": "2026-10-03T12:30:02Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "post_count": 5,
   "agent_pulled": "2026-07-04",
   "feed_nature": "vendor-blog",
