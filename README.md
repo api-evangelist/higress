@@ -1,4 +1,4 @@
-# Higress (higress)
+# Higress
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,104 +66,107 @@
 
 Higress is a cloud-native API gateway built on Istio and Envoy, providing enterprise-grade API gateway capabilities including traffic management, security, observability, and AI plugin support. It is an open-source project under the CNCF ecosystem.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/higress/refs/heads/main/apis.yml)
+**Areas:** API Gateway · Cloud-Native · Istio · Kubernetes
 
-## Scope
+## Higress on APIs.io
 
-- **Type:** Index 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+Everything profiled for Higress is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/higress/](https://apis.io/providers/higress/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (4)
 
- - API Gateway, Cloud Native, Kubernetes, Istio
+- [Higress](https://apis.io/apis/higress/higress/) — Higress is a next-generation cloud-native API gateway that provides intelligent routing, traffic management, authentication, and observability capabilities…
+- [Higress Console API](https://apis.io/apis/higress/higress-console-api/) — The Higress Console API provides a RESTful management interface for configuring and administering a running Higress gateway instance. It supports management…
+- [Higress AI Gateway](https://apis.io/apis/higress/higress-ai-gateway/) — Higress AI Gateway extends the core Higress gateway with AI-specific capabilities including LLM proxy routing, multi-provider support for OpenAI-compatible…
+- [Higress Wasm Plugin API](https://apis.io/apis/higress/higress-wasm-plugin-api/) — The Higress Wasm Plugin API provides a WebAssembly-based extension interface for developing and deploying custom plugins on the Higress gateway. Plugins can…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-16 
-- **Modified:** 2026-04-28 
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Higress
-Higress is a next-generation cloud-native API gateway that provides intelligent routing, traffic management, authentication, and observability capabilities for microservices architectures.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://higress.io/en-us/](https://higress.io/en-us/)
+- [Higress Domain Security](https://apis.io/security/higress/higress-domain-security/)
 
+#### Plans and pricing (1)
 
-#### Tags:
+Published plans, tiers and prices.
 
- - API Gateway, Cloud Native
+- [Higress Plans Pricing](https://apis.io/plans/higress/higress-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://higress.io/en-us/docs/)
-- [Getting Started](https://higress.io/en-us/docs/user/quickstart)
-- [Reference](https://higress.io/en-us/docs/ops/config/)
-- [Change Log](https://github.com/alibaba/higress/releases)
-- [GitHubRepository](https://github.com/alibaba/higress)
+Published request limits.
 
-### Higress Console API
-The Higress Console API provides a RESTful management interface for configuring and administering a running Higress gateway instance. It supports management of ingress routes, service sources, TLS certificates, plugins, and gateway configuration through the built-in web console backend.
+- [Higress Rate Limits](https://apis.io/rate-limits/higress/higress-rate-limits/)
 
-**Human URL:** [https://higress.io/en-us/docs/ops/api](https://higress.io/en-us/docs/ops/api)
+#### FinOps (1)
 
+What the API costs to run, by operation.
 
-#### Tags:
+- [Higress Finops](https://apis.io/finops/higress/higress-finops/)
 
- - Admin, Management, REST, Configuration
+## Where to find this API
 
-#### Properties
-
-- [Documentation](https://higress.io/en-us/docs/ops/api)
-- [GitHubRepository](https://github.com/alibaba/higress-console)
-
-### Higress AI Gateway
-Higress AI Gateway extends the core Higress gateway with AI-specific capabilities including LLM proxy routing, multi-provider support for OpenAI-compatible APIs, prompt templating, token-based rate limiting, semantic caching, and AI observability. It enables teams to manage and govern traffic to large language model services.
-
-**Human URL:** [https://higress.io/en-us/docs/plugins/ai/](https://higress.io/en-us/docs/plugins/ai/)
-
-
-#### Tags:
-
- - AI, LLM, API Gateway, Cloud Native
-
-#### Properties
-
-- [Documentation](https://higress.io/en-us/docs/plugins/ai/)
-- [Getting Started](https://higress.io/en-us/docs/user/ai-proxy/)
-- [GitHubRepository](https://github.com/alibaba/higress)
-
-### Higress Wasm Plugin API
-The Higress Wasm Plugin API provides a WebAssembly-based extension interface for developing and deploying custom plugins on the Higress gateway. Plugins can be written in Go, Rust, C++, or any language that compiles to WebAssembly, and can intercept and transform HTTP requests and responses at the gateway level.
-
-**Human URL:** [https://higress.io/en-us/docs/plugins/custom/](https://higress.io/en-us/docs/plugins/custom/)
-
-
-#### Tags:
-
- - WebAssembly, Plugins, Extensions, Cloud Native
-
-#### Properties
-
-- [Documentation](https://higress.io/en-us/docs/plugins/custom/)
-- [Reference](https://higress.io/en-us/docs/plugins/custom/go-plugin/)
-- [GitHubRepository](https://github.com/alibaba/higress)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://higress.io/en-us/)
 - [Documentation](https://higress.io/en-us/docs/)
-- [Getting Started](https://higress.io/en-us/docs/user/quickstart)
+- [Getting started](https://higress.io/en-us/docs/user/quickstart)
+- [Changelog](https://github.com/alibaba/higress/releases)
 - [Blog](https://higress.io/en-us/blog/)
-- [Change Log](https://github.com/alibaba/higress/releases)
-- [GitHub Organization](https://github.com/alibaba)
-- [GitHubRepository](https://github.com/alibaba/higress)
-- [Issue Tracker](https://github.com/alibaba/higress/issues)
-- [Community](https://discord.gg/higress)
+- [GitHub](https://github.com/alibaba)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 19.0** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 60.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/higress/](https://apis.io/providers/higress/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Higress: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/higress/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
